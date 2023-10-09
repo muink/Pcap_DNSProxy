@@ -683,6 +683,7 @@
 	#define OPENSSL_VERSION_1_0_2             0x10002000L
 	#define OPENSSL_VERSION_1_1_0             0x10100000L
 	#define OPENSSL_VERSION_1_1_1             0x10101000L
+	#define OPENSSL_VERSION_3_0_0             0x30000000L
 	#define VERSION_REQUIRE_OPENSSL           OPENSSL_VERSION_1_0_2
 #if OPENSSL_VERSION_NUMBER < VERSION_REQUIRE_OPENSSL
 	#error "The version of OpenSSL is too old."
